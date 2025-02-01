@@ -1,13 +1,13 @@
 """
-Base-N Encoding/Decoding Implementation
+Base-Flex Encoding/Decoding Implementation
 
 This module provides a flexible implementation for encoding and decoding data using
 various base-N encodings (e.g., Base64, Base32). The implementation supports custom
 alphabets and optional separators between encoded characters.
 
 Example usage:
-    from base_n import BaseN
-    from base_n.alphabets import BASE64_ALPHABET, BASE32_ALPHABET
+    from base_flex import BaseN
+    from base_flex.alphabets import BASE64_ALPHABET, BASE32_ALPHABET
 
     # Create a Base64 encoder
     base64 = BaseN(list(BASE64_ALPHABET))

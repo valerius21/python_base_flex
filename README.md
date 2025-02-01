@@ -1,4 +1,4 @@
-# Base-N Encoder/Decoder
+# Base-Flex Encoder/Decoder
 
 A flexible Python implementation for encoding and decoding data using various base-N encodings (e.g., Base64, Base32, Base16, Base4096, etc.). The implementation supports custom alphabets and optional separators between encoded characters.
 
@@ -19,14 +19,14 @@ A flexible Python implementation for encoding and decoding data using various ba
 ## Installation
 
 ```bash
-pip install base-n
+pip install base-flex
 ```
 
 ## Usage
 
 ```python
-from base_n import BaseN
-from base_n.alphabets import BASE64_ALPHABET, BASE32_ALPHABET
+from base_flex import BaseN
+from base_flex.alphabets import BASE64_ALPHABET, BASE32_ALPHABET
 
 # Base64 encoding/decoding
 base64 = BaseN(list(BASE64_ALPHABET))
@@ -58,14 +58,14 @@ decoded_base8 = base8.decode(encoded_base8)
 ## Project Structure
 
 ```
-base_n/
-├── base_n/
+base_flex/
+├── base_flex/
 │   ├── __init__.py
-│   ├── base_n.py      # Main implementation
+│   ├── base_flex.py      # Main implementation
 │   ├── alphabets.py   # Pre-defined standard alphabets
 │   └── tests/
 │       ├── __init__.py
-│       └── test_base_n.py
+│       └── test_base_flex.py
 ├── README.md
 └── pyproject.toml
 ```

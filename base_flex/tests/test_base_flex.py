@@ -1,6 +1,6 @@
 import unittest
-from base_n import BaseN
-from base_n.alphabets import BASE32_ALPHABET, BASE64_ALPHABET
+from base_flex import BaseN
+from base_flex.alphabets import BASE32_ALPHABET, BASE64_ALPHABET
 
 
 class TestBaseN(unittest.TestCase):

@@ -1,5 +1,5 @@
 [run]
-source = base_n
+source = base_flex
 
 [report]
 exclude_lines =
