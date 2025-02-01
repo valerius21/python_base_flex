@@ -106,3 +106,26 @@ The implementation follows these steps:
 ## License
 
 [MIT License](LICENSE)
+
+## Citation
+
+If you use this software, please cite it as below:
+
+### APA
+
+```
+Mattfeld, V. (2025). Base-Flex (Version 0.1.0) [Computer software]. https://github.com/valerius21/base-flex
+```
+
+### BibTeX
+
+```bibtex
+@software{Mattfeld_Base-Flex_2025,
+    author = {Mattfeld, Valerius},
+    month = feb,
+    title = {{Base-Flex}},
+    url = {https://github.com/valerius21/base-flex},
+    version = {0.1.0},
+    year = {2025}
+}
+```
