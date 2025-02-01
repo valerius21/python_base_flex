@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "base_n"
+version = "0.1.0"
+description = "A flexible base-N encoder/decoder implementation supporting standard and custom alphabets"
+authors = ["Valerius Mattfeld <mail@valerius.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+coverage = "^7.6.10"
