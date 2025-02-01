@@ -51,6 +51,7 @@ BASE2048_ALPHABET = (
 )
 
 # Full extended character set with control chars
+# Source: https://github.com/ZCHGorg/base4096/blob/17cb18aac0e7ce2124943bd23cf7213d25adaffe/base4096.py#L2
 BASE4096_ALPHABET = (
     "0123456789"
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

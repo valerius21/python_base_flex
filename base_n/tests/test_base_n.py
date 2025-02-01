@@ -52,7 +52,7 @@ class TestBaseN(unittest.TestCase):
         """Test Base64 encoding/decoding with separators."""
         # Test encoding with separator
         encoded = self.base64_sep.encode(self.test_data)
-        self.assertTrue("-" in encoded)
+        self.assertIn("-", encoded)
 
         # Test decoding with separator
         decoded = self.base64_sep.decode(encoded)
@@ -89,7 +89,7 @@ class TestBaseN(unittest.TestCase):
         # Test padding handling
         single_byte = b"a"
         encoded = self.base64.encode(single_byte)
-        self.assertTrue(encoded.endswith("=="))
+        self.assertIn("==", encoded[-2:])
         self.assertEqual(self.base64.decode(encoded), single_byte)
 
         # Test different input lengths
@@ -116,7 +116,7 @@ class TestBaseN(unittest.TestCase):
     def test_encode_decode_with_separator(self):
         """Test encoding and decoding with a separator."""
         encoded = self.base64_sep.encode(self.test_data)
-        self.assertTrue("-" in encoded)
+        self.assertIn("-", encoded)
         decoded = self.base64_sep.decode(encoded)
         self.assertEqual(self.test_data, decoded)
 

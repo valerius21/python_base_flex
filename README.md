@@ -1,6 +1,9 @@
 # Base-N Encoder/Decoder
 
-A flexible Python implementation for encoding and decoding data using various base-N encodings (e.g., Base64, Base32, Base16, etc.). The implementation supports custom alphabets and optional separators between encoded characters.
+A flexible Python implementation for encoding and decoding data using various base-N encodings (e.g., Base64, Base32, Base16, Base4096, etc.). The implementation supports custom alphabets and optional separators between encoded characters.
+
+> **Note:** If you are looking for a faster, more robust implementation for standart encodings, use the [standard library](https://docs.python.org/3/library/base64.html).
+> This library goal is to provide a flexible implementation for custom base-N encodings and alphabets!
 
 ## Features
 
