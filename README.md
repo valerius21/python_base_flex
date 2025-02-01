@@ -105,4 +105,4 @@ The implementation follows these steps:
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
